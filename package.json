@@ -1,0 +1,38 @@
+{
+  "name": "ct449h01-backend2-truongb2306646",
+  "version": "1.0.0",
+  "description": "Contactbook Backend - Part 2",
+  "keywords": [
+    "contactbook",
+    "backend",
+    "express"
+  ],
+  "homepage": "https://github.com/TruongB2306646/ct449h01-backend2-TruongB2306646#readme",
+  "bugs": {
+    "url": "https://github.com/TruongB2306646/ct449h01-backend2-TruongB2306646/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TruongB2306646/ct449h01-backend2-TruongB2306646.git"
+  },
+  "license": "ISC",
+  "author": "TruongB2306646",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "dev": "nodemon server.js",
+    "lint": "eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.1",
+    "eslint-config-prettier": "^10.1.8",
+    "nodemon": "^3.1.14",
+    "prettier": "^3.9.3"
+  }
+}
